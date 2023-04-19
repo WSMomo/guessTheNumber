@@ -70,7 +70,10 @@ main {
   grid-template-columns: 1fr 1fr 1fr;
   place-items: center;
 }
-
+.info-user-game-detail{
+  width: 100%;
+  text-align: left;
+}
 
 /* input */
 #input {
@@ -169,4 +172,9 @@ main {
   to {
     transform: translate3d(0, -5px, 0);
   }
+}
+
+
+.info-user-game-detail{
+  text-align: left;
 }
