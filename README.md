@@ -5,4 +5,4 @@ This is a simple number guessing game built with HTML, CSS, and JavaScript. The 
 ## Play the game
 
  - Clone the repo and open the index.html file in your browser;
- - Try it here
+ - [Try it here](https://grand-sopapillas-5368ec.netlify.app/)
