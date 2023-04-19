@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess My Number</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://kit.fontawesome.com/347de1b499.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <main>
+
+    <!-- info sul numero, punteggio, tentativi rimasti, punteggio migliore -->
+    <section id="output">
+      <div id="what-number">
+        ?
+      </div>
+      <div id="info-user-game">
+        <div><i class="fa-regular fa-star"></i></div>
+        <div>Score : </div>
+        <div id="score-value"></div>
+        <div><i class="fa-solid fa-xmark"></i></div>
+        <div>Chances Left : </div>
+        <div id="attempts-left"></div>
+        <div><i class="fa-solid fa-star"></i></div>
+        <div>Highest Score: </div>
+        <div id="highest-score-value"></div>
+      </div>
+    </section>
+
+    <!-- info sul numero minimo e massimo
+    input numero
+    tasto check -->
+
+    <section id="input">
+      <div id="show-info">
+        Good luck!
+      </div>
+      <div id="info-number">
+        Between&nbsp;<span id="min-number">0</span>&nbsp;and&nbsp;<span id="max-number">99</span>&nbsp;
+      </div>
+      <input type="text" id="input-number">
+      <div>
+        <button id="check-btn">Check</button>
+        <button id="play-again">Play Again</button>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="assets/js/main.js"></script>
+</body>
+
+</html>
